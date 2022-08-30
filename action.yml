@@ -11,6 +11,9 @@ inputs:
   validator:
     description: 'Patch validator to use. [No | CT | AI | All]'
     default: 'All'
+  branding:
+    color: 'green'
+    icon: 'Aperture'
   
 runs:
   using: 'composite'
